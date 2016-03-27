@@ -60,6 +60,8 @@ Below is a list of columns available in the dataset with a rough description of 
 
 ## Sample exploration
 
+Data exploration examples using `pandas`.
+
 #### What data is available?
 
 ```python
