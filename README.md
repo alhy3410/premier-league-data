@@ -42,7 +42,7 @@ Below is a list of columns available in the dataset with a rough description of 
 | `saves_home_team` | Number of saves made by the goalkeeper of `home_team` |
 | `saves_away_team` | Number of saves made by the goalkeeper of `away_team` |
 | `blocks_home_team` | Number of blocks by the `home_team` |
-| `blocks_away_team | Number of blocks by the `away_team` |
+| `blocks_away_team` | Number of blocks by the `away_team` |
 | `clearances_home_team` | Number of clearances made by the `home_team` |
 | `clearances_away_team` | Number of clearances made by the `away_team` |
 | `offsides_home_team` | Number of times `home_team` players were caught offside |
