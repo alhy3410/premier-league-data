@@ -89,6 +89,6 @@ if __name__ == '__main__':
         for i, link in enumerate(links):
             url = '%s%s' % ('http://www.premierleague.com', link.strip())
             data.append(get_stats_for_match(url))
-            logging.info('#(%d/%d) Completed crawl for %s' % (i, tot, url.split('/')[-1]))
+            logging.info('#(%d/%d) Completed crawl for %s' % (i + 1, tot, url.split('/')[-1]))
 
     pd.DataFrame(data).to_csv(args.output, index=False, encoding='utf-8')
