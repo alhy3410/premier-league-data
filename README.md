@@ -60,7 +60,7 @@ Below is a list of columns available in the dataset with a rough description of 
 
 ## Sample exploration
 
-### Show me what columns are available
+#### What data is available?
 
 ```python
 In [1]: import pandas as pd
@@ -88,16 +88,16 @@ Index([u'assists_away_team', u'assists_home_team', u'attendance',
       dtype='object')
 ```
 
-### How many shots have Leicester taken when playing in home this season?
+#### How many shots have Leicester taken when playing in home this season?
 
-```
+```python
 In [4]: sum(df[df.home_team == 'Leicester'].total_shots_home_team)
 Out[4]: 155
 ```
 
-### How many goals have Man Utd scored so far this season?
+#### How many goals have Man Utd scored so far this season?
 
-```
+```python
 In [5]: sum(df[df.home_team == 'Man Utd'].home_goals) + sum(df[df.away_team == 'Man Utd'].away_goals)
 Out[5]: 38
 ```
